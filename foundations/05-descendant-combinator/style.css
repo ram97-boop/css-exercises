@@ -1,13 +1,6 @@
-.container .text {
+div p {
     background-color: yellow;
     color: red;
     font-size: 20px;
     text-align: center;
 }
-
-/*
-Other solutions for descendent combinators:
-div p
-div .text
-.container p 
-*/
