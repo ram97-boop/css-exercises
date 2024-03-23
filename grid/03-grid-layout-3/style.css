@@ -134,8 +134,8 @@
 .article {
   grid-area: article;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .footer {
