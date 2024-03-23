@@ -96,6 +96,7 @@
   display: grid;
   grid-template-rows: 2fr 1fr 10fr 1fr;
   grid-template-columns: 1fr 4fr;
+  gap: 5px;
   grid-template-areas:
     "header header"
     "sidebar nav"
