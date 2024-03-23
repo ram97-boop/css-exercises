@@ -108,12 +108,25 @@
   grid-area: header;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  justify-content: space-between;
+}
+
+.header .logo {
+  justify-self: left;
+}
+
+.menu {
+  display: grid;
+  align-items: center;
 }
 
 .menu ul {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-items: right;
+}
+
+li {
+  list-style: none;
 }
 
 .nav {
