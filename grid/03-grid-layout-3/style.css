@@ -132,6 +132,8 @@ li {
 
 .nav {
   grid-area: nav;
+  display: grid;
+  align-items: center;
 }
 
 .nav ul {
@@ -160,4 +162,6 @@ li {
 
 .footer {
   grid-area: footer;
+  display: grid;
+  align-items: center;
 }
